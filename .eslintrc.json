@@ -1,0 +1,42 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:storybook/recommended",
+    "google"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+        "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "require-jsdoc": "off",
+    "object-curly-spacing": ["error", "always"],
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
+    "indent": "off",
+    "max-len": ["error", {
+      "ignoreComments": true,
+      "ignoreStrings": true,
+      "ignoreUrls": true
+    }],
+    "@typescript-eslint/indent": ["error", 2],
+    "valid-jsdoc": "off"
+  }
+}

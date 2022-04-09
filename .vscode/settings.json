@@ -1,0 +1,8 @@
+{
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": ["css", "scss"],
+  "typescript.suggest.paths": false,
+  "javascript.suggest.paths": false,
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
